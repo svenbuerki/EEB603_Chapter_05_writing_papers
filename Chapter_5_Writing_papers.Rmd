@@ -126,7 +126,7 @@ knitr::include_graphics("Figures/New_RMarkdown_window.png")
 
 4. Once you completed this task, a folder will be created (and saved in the path that you provided) containing files associated with the article submission process and the template will be automatically opened in RStudio (see Figure \@ref(fig:filestr)).
 
-```{r filestr, echo=FALSE, fig.cap="Snapshot showing the template R Markdown and the associated folder created to generate your submission.", fig.align = 'center', out.width = '80%'}
+```{r filestr, echo=FALSE, fig.cap="Snapshot showing the template R Markdown and the associated folder created to generate your submission.", fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("Figures/Structure_files.png")
 ```
 
@@ -136,29 +136,29 @@ knitr::include_graphics("Figures/Structure_files.png")
   - `pnas.csl` and `pnas-new.cls`: Files containing information about the formatting of citations and bibliography adapted to journal policies. 
   - `frog.png`: A `.png` file used to show you how to include figures in `.Rmd` document.
 
-```{r filestr2, echo=FALSE, fig.cap="Snapshot showing the suite of files associated to your submission and saved in your project folder.", fig.align = 'center', out.width = '60%'}
+```{r filestr2, echo=FALSE, fig.cap="Snapshot showing the suite of files associated to your submission and saved in your project folder.", fig.align = 'center', out.width = '80%'}
 knitr::include_graphics("Figures/Structure_files_2.png")
 ```
 
 5. Start writing your article
   - Open `Submission_PNAS.Rmd` and update the YAML metadata section with information on authors, your abstract, summary and keywords (see Figure \@ref(fig:YAML)).
 
-```{r YAML, echo=FALSE, fig.cap="Update YAML metadata section with information on authors, your abstract, summary and keywords.", fig.align = 'center', out.width = '80%'}
+```{r YAML, echo=FALSE, fig.cap="Update YAML metadata section with information on authors, your abstract, summary and keywords.", fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("Figures/YAML_section.png")
 ```
   - Write your manuscript by following the journal's structure. You can take advantage of the R Markdown language in your manuscript (e.g. include R code chunks and outputs) and those will be converted by *knitr* and *rtciles* packages during the compilation procedure.
 
 4. Compile your document and use both `.pdf` and `.tex` files to submit your article (see Figure \@ref(fig:Subm)). The output files will be saved in your project folder.
 
-```{r Subm, echo=FALSE, fig.cap="Snapshot of the procedure to knit the document.", fig.align = 'center', out.width = '80%'}
+```{r Subm, echo=FALSE, fig.cap="Snapshot of the procedure to knit the document.", fig.align = 'center', out.width = '100%'}
 knitr::include_graphics("Figures/Compiled_file.png")
 ```
 
 # Exercise
 
-To get familiar with this procedure, please practice by applying it to different journal templates favoring those you might submit to. 
+To get familiar with this procedure, please practice by applying it to different journal templates by favoring those where you might be contributing to. 
 
-Enjoy!
+Enjoy writing scientific publications in R Markdown!
 
 # References
 
