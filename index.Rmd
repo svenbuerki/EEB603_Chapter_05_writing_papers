@@ -1,0 +1,25 @@
+---
+title: 'EEB603 -- Chapter 5: Writing scientific publications'
+author: "Sven Buerki"
+date: "Boise State University"
+---
+
+# Learning outcome
+
+In this chapter, students will learn to:
+
+- Write scientific publications using R Markdown templates implemented in the [*rticles* ](https://cran.r-project.org/web/packages/rticles/index.html) package.
+
+At the moment, those template cover the following publishers/journals:
+
+- Biometrics articles
+- Elsevier journal submissions
+- Frontiers articles
+- MDPI journal submissions
+- PeerJ articles
+- PNAS articles
+- Royal Society Open Science journal submissions
+- Sage journal submissions
+- Springer journal submissions
+- The R Journal articles
+- Taylor & Francis articles
